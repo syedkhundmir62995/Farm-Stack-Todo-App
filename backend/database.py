@@ -44,7 +44,9 @@ async def insert_todo(data):
     return response
     
 # Update a Todo
-async def updation_of_todo(title,desc):
+async def updation_of_todo(data):
+    title = data["title"]
+    desc = data['description']
     await collection.update_one({"title": title},
     {"$set":{"description": desc}})
 

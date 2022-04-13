@@ -18,12 +18,13 @@ function TodoList(props){
                <tbody>
                 
                     {
-                        props.data.map((item, i)=><TodoItem dataitem = {item} indexkey = {i} getTodoData = {props.getTodoData} />)
+                        props.data.map((item, i)=><TodoItem dataitem = {item} indexkey = {i} getTodoData = {props.getTodoData} setUpdateBtn = {props.setUpdateBtn} getUpdateTaskData = {props.getUpdateTaskData} setUtaskk = {props.setUtaskk}/>)
                     }
                 
                 </tbody>
             </Table>
         </div>
+        
     )
 }
 

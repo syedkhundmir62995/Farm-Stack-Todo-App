@@ -56,8 +56,8 @@ async def add_todo(data: Todo):
 
 # Update a todo
 @app.put("/api/updatetodo/{title}")
-async def update_todo(title,desc):
-    res = await updation_of_todo(title, desc)
+async def update_todo(data: Todo):
+    res = await updation_of_todo(dict(data))
     if res:
         return res
     raise HTTPException(404, "Todo Is Not Updated")
