@@ -1,6 +1,6 @@
 # Farm-Stack-Todo-App
 
-#### This application has been created as a learning tool to acquaint myself with the FARM stack's logic, syntax, control flow, and architecture. 
+#### I have developed this application as a part of exercise to acquaint myself with the FARM stack's logic, syntax, control flow, and architecture. 
 
 #### To begin, I worked on the backend to create APIs using FastAPI and Mongodb, and then I moved on to the frontend using React. Furthermore, I integrated the frontend and backend to create a fully functional app. 
 
