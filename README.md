@@ -1,8 +1,8 @@
 # FARM-Stack-Todo-App
 
 <p>
- <img src = "./screenshot1" width = "900" height="450" />
- <img src = "./screenshot2" width = "900" height="450" />
+ <img src = "./screenshot1.png" width = "900" height="450" />
+ <img src = "./screenshot2.png" width = "900" height="450" />
 </p>
 
 #### I have developed this application as a part of exercise to acquaint myself with the FARM stack's logic, syntax, control flow, and architecture. 
