@@ -1,7 +1,7 @@
 # FARM-Stack-Todo-App
 
 <p>
- <img src = "./screenshot1.png" width = "900" height="450" />
+ <img src = "./screenshot1.png" width = "900" height="450" /> <br/>
  <img src = "./screenshot2.png" width = "900" height="450" />
 </p>
 
